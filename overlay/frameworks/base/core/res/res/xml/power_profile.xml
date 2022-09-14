@@ -28,6 +28,7 @@
     <item name="battery.capacity">3080</item>
     <item name="bluetooth.active">60</item>
     <item name="bluetooth.at">2</item>
+    <item name="bluetooth.controller.voltage">3300</item>
     <item name="bluetooth.on">2</item>
     <item name="wifi.on">1</item>
     <item name="wifi.active">100</item>

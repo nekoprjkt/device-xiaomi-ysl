@@ -9,5 +9,8 @@ DEVICE_PATH := device/xiaomi/ysl
 # Inherit from common msm8953-common
 include device/xiaomi/msm8953-common/BoardConfigCommon.mk
 
+# Kernel
+TARGET_KERNEL_CONFIG := ysl_defconfig
+
 # Inherit the proprietary files
 include vendor/xiaomi/ysl/BoardConfigVendor.mk

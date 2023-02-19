@@ -7,6 +7,9 @@
 # Inherit from msm8953-common
 $(call inherit-product, device/xiaomi/msm8953-common/msm8953.mk)
 
+# Screen density
+PRODUCT_AAPT_PREF_CONFIG := xhdpi
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)

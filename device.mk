@@ -285,6 +285,10 @@ DEVICE_PACKAGE_OVERLAYS += \
 PRODUCT_ENFORCE_RRO_TARGETS := *
 PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += $(LOCAL_PATH)/overlay/packages/apps/CarrierConfig
 
+# Prebuilt
+PRODUCT_PACKAGES += \
+    Camera
+
 # Perf
 PRODUCT_PACKAGES += \
     vendor.qti.hardware.perf@2.0.vendor
@@ -320,6 +324,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     init.qcom.sh \
     init.qcom.post_boot.sh
+
+# Remove unwanted packages
+PRODUCT_PACKAGES += \
+    removepackages
 
 # RIL
 PRODUCT_PACKAGES += \
